@@ -1,0 +1,1 @@
+<?php header("Location: mailto:camille.dion.bolduc@gmail.com");

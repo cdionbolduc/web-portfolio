@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <!-- Meta du site -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio de Camille Dion-Bolduc, développeure web et designer de profession.">
+    <meta name="keywords" content="Portfolio, website, site web, illustrations, dessins, web, développement, intégration, programmation">
+    <meta name="author" content="Camille Dion-Bolduc">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicons du site -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+    <!-- Animation avec animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Link des styles et typographies -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Favicons du site -->
+    <title>Portfolio - Camille Dion-Bolduc</title>
+</head>
+
+<body class="body__portfolio">
+    <header class="header__portfolio conteneur">
+        <div class="header__portfolio__logo" data-aos="fade-left">
+            <a href="#"><img src="images/logo.svg" alt="Logo du site, Camille Dion-Bolduc"></a>
+        </div>
+        
+        <div class="header__portfolio__nav">
+            <a class="lien__profil" href="#section_introduction">Profil</a>
+            <a class="lien__competence" href="#section_competences">Compétences</a>
+            <a class="lien__projets" href="#section_projets">Projets</a>
+            <a class="bouton__contact animate__animated animate__pulse animate__delay-1s animate__repeat-3" href="mail.php">Contactez-moi</a>
+        </div>
+    </header>
+
+    <main class="main__portfolio">
+        <noscript>Javascript semble non activé sur votre navigateur - celui-ci est recommandé pour une meilleure expérience sur ce site.</noscript>
+
+        <h1 class="screen-reader-only">Portfolio - Camille Dion-Bolduc</h1>
+
+        <!-- Première illustration du site -->
+        <div class="illustration illustration__header" data-aos="fade-up"></div>
+
+        <section id="section_introduction" class="introduction conteneur">
+            <div class="introduction__texte" data-aos="fade-right">
+                <h2>Intégratrice front-end <span class="couleur__orange">&</span> designer web</h2>
+
+                <div class="texte__barre__orange">
+                    <div class="orange__bar"></div>
+                    <p>Je suis une personne qu’on pourrait décrire comme tentaculaire, j’aime autant travailler sur l’intégration
+                        <abbr title="Hypertext Markup Language">HTML</abbr> ou <abbr title="Cascading Style Sheets">CSS</abbr>, que le design ou la création de médias.</p>
+                </div>
+            </div>
+            <div class="introduction__portrait" data-aos="fade-right">
+                <div class="section__sociale">
+                    <a href="https://www.behance.net/camilledionbolduc" target="_blank" alt="Lien Behance"><img src="images/icone_behance.svg" alt=""><span class="screen-reader-only">Lien vers mon Behance</span></a>
+                    <a href="https://www.linkedin.com/in/camille-dion-bolduc-0079078a/" alt="Lien Linkedin" target="_blank"><img src="images/icone_linkedin.svg" alt=""><span class="screen-reader-only">Lien vers mon Linkedin</span></a>
+                    <a href="mail.php" target="_blank" alt="Lien courriel"><img class="icone_courriel" src="images/icone_courriel.svg" alt=""><span class="screen-reader-only">Lien vers mon courriel</span></a>
+                </div>
+                <div class="introduction__portrait__img"></div>
+            </div>
+        </section>
+
+        <!-- Seconde illustration du site -->
+        <div class="illustration illustration__centre" data-aos="fade-up"></div>
+
+        <section id="section_competences" class="competetences conteneur">
+            <div class="competetences__titre" data-aos="fade-right">
+                <h2>Compétences premières</h2>
+            </div>
+
+            <div class="competences__texte">
+                <div class="competence competences__code">
+                    <img src="images/illus_code.png" alt="">
+                    <h3>Développement web</h3>
+                    <p>Intégration de sites web de façon <i>mobile first</i>. <abbr title="Syntactically Awesome Style Sheets">SASS</abbr> et Javascript seront mes principaux outils utilisés lors de projet.</p>
+                    <p class="techno_liste"><strong>Technologie utilisées :</strong> HTML, CSS, SASS, SUZY, terminal, GIT, Javascript, classes méthode BEM, PHP, JQuery et librairies comme animate.css.</p>
+                </div>
+                <div class="competence competences__UX">
+                    <img src="images/illus_mobile.png" alt="">
+                    <h3>Expérience utilisateur</h3>
+                    <p>Recherche et analyse des besoins du public cible, Questionnements pertinants et travail évolutif.</p>
+                    <p class="techno_liste"><strong>Technologie utilisées :</strong> Axure RP, draw.io, entrevues, recherche de concurrence et visuelle, moodboard.</p>
+
+                </div>
+                <div class="competence competences__conception">
+                    <img src="images/illus_conception.png" alt="">
+                    <h3>Création de médias</h3>
+                    <p>Illustration, design web, icônes, motifs, logos, emballages même -  j’adore le processus de création d’une identité!</p>
+                    <p class="techno_liste"><strong>Technologie utilisées :</strong> Sketch et Figma pour le web, Illustrator, Photoshop, InDesign pour le design en général.</p>
+
+                </div>
+                <div class="competence competences__access">
+                    <img src="images/illus_accessibilite.png" alt="">
+                    <h3>Penser à l’accessibilité</h3>
+                    <p>Préoccupation de rendre le web utilisable et (encore plus plaisant) pour tous et chacun!</p>
+                    <p class="techno_liste"><strong>Technologie utilisées :</strong> Lighthouse, tests avec lecteur vocal, validation HTML et plus!</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Dernière illustration du site -->
+        <div class="illustration illustration__fin" data-aos="fade-up"></div>
+
+        <section id="section_projets" class="projets conteneur">
+
+            <div class="projets__titre">
+                <h2>Mes projets récents</h2>
+            </div>
+
+            <div class="projets__images" data-aos="fade-right">
+                <div class="projet__single"><a href="https://www.behance.net/gallery/91287321/TIM-session-4-Pur-%28Jeu%29" target="_blank">
+                    <img src="images/projet1.png" alt="">
+                    <h3>Projet de jeux vidéo - Pur</h3>
+                </a></div>
+                <div class="projet__single"><a href="https://www.behance.net/gallery/75139437/TIM-Session-3-%28Festival-OFF%29" target="_blank">
+                    <img src="images/projet2.png" alt="">
+                    <h3>Festival de musique  - Off</h3>
+                </a></div>
+                <div class="projet__single"><a href="https://www.behance.net/gallery/91287125/TIM-Session-5-Librairie-Traces" target="_blank">
+                    <img src="images/projet3.png" alt="">
+                    <h3>Librairie commerciale - Traces</h3>
+                </a></div>
+                <div class="projet__single"><a href="https://www.behance.net/gallery/75138957/TIM-Session-3-%28Conception-interactive-I%29" target="_blank">
+                    <img src="images/projet4.png" alt="">
+                    <h3>Application mobile - La Cafet</h3>
+                </a></div>
+            </div>
+            <a class="bouton__projets" href="https://www.behance.net/camilledionbolduc">Voir tous mes projets sur Behance</a>
+        </section>
+    </main>
+
+
+    <footer class="footer__portfolio">
+        <div class="conteneur">
+            <img class="logo__portfolio" src="images/logo.svg" alt="">
+        </div>
+
+        <div class="conteneur footer__conteneur">
+            <div class="section__portrait" data-aos="fade-right">
+                <div class="section__sociale">
+                    <a href="https://www.behance.net/camilledionbolduc" alt="Lien Behance" target="_blank"><img src="images/icone_behance.svg" alt=""><span class="screen-reader-only">Lien vers mon Behance</span></a>
+                    <a href="https://www.linkedin.com/in/camille-dion-bolduc-0079078a/" alt="Lien Linkedin" target="_blank"><img src="images/icone_linkedin.svg" alt=""><span class="screen-reader-only">Lien vers mon Linkedin</span></a>
+                    <a href="mail.php" target="_blank" alt="Lien courriel"><img src="images/icone_courriel.svg" alt=""><span class="screen-reader-only">Lien vers mon courriel</span></a>
+                </div>
+
+                <div class="image__portrait">
+                    <img src="images/portrait2.png" alt="">
+                </div>
+            </div>
+            <div class="section__texte">
+                <p>Au plaisir de <br />travailler avec vous!</p>
+            </div>
+            <div class="section__nav">
+                <a href="#section_introduction">Profil</a>
+                <a href="#section_competences">Compétences</a>
+                <a href="#section_projets">Projets</a>
+                <a class="bouton__contact animate__animated animate__pulse animate__delay-10s animate__repeat-5" href="mail.php">Contactez-moi</a>
+            </div>
+        </div>
+
+        <span class="copyright__footer">Design web et illustrations par Camille Dion-Bolduc, icônes de iconfinder.com (c) 2020 - Merci beaucoup de votre visite ! ♥</span>
+    </footer>
+
+    <!-- Link de la programmation (Pour animations) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
